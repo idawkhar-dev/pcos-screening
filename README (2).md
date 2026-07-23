@@ -5,7 +5,7 @@ risk level: Low / Moderate / High and the factors that contributed most.
 
 **Not a diagnostic tool.** Outputs are for screening, prioritisation and education only.
 
-**Live demo:** https://riskcalculator-pcos.streamlit.app/
+**Live demo/Use Calculator using this link:** https://riskcalculator-pcos.streamlit.app/
 
 ---
 
