@@ -60,9 +60,10 @@ streamlit run app.py
 ```
 app.py                      Streamlit questions + scoring app backend
 pcos_model.json             model weights, level cut-offs, display labels
-EAD_MODEL_PCOS.ipynb        EDA, feature selection, and model training
+MODEL_PCOS.ipynb            EDA, feature selection, and model training
 test_validation.py          input- output test cases 
-requirements.txt
+requirements.txt            repo dependencies to run code and application
+PCOS_data_without_infertility.xlsx Raw data file 
 ```
 
 Full problem framing, data limitations and next steps are covered in the document shared via mail.  
