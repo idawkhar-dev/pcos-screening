@@ -34,9 +34,8 @@ Five-fold cross-validated ROC AUC:
 | Feature set | AUC |
 |---|---|
 | All features (41) clinical + questions data | 0.944 |
-| Clinical / ultrasound only (11) | 0.901 |
 | All questions data features (11) | 0.883 |
-| **Final model — top 8 questionnaire features** | **0.886** |
+| **Final model — top 8 features** | **0.886** |
 
 Follicle counts are the strongest correlates of the label (r = 0.65 / 0.60) because they *are* the
 ultrasound diagnostic criterion but are excluded deliberately.
