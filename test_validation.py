@@ -24,7 +24,7 @@ binary = ["hair growth(Y/N)", "Skin darkening (Y/N)", "Weight gain(Y/N)",
 
 rows = []
 for combo in itertools.product([0, 1], repeat=len(binary)):
-    for cyc in (2, 4):                      # regular / irregular
+    for cyc in (2, 4):                      
         for age in (18, 25, 32, 40):
             for clen in (3, 5, 8):
                 a = dict(zip(binary, combo))
@@ -37,8 +37,8 @@ for combo in itertools.product([0, 1], repeat=len(binary)):
 df = pd.DataFrame(rows)
 print(f"Total combinations tested: {len(df)}\n")
 
-print("\nScore range per band:")
-print(df.groupby("band")["p"].agg(["min", "max", "count"]).round(3))
+print("\nScore range per level:")
+print(df.groupby("level")["p"].agg(["min", "max", "count"]).round(3))
 
 mod = df[df.band == "Moderate"].sort_values("p")
 print(f"\n--- {len(mod)} Moderate combinations. Ten examples: ---")
