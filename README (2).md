@@ -18,7 +18,7 @@ risk level: Low / Moderate / High and the factors that contributed most.
 
 ## Model
 
-Logistic regression (`impute → standardise → logistic`), trained on **questionnaire-answerable
+Logistic regression, trained on **questionnaire-answerable
 features only**. The model is not trained on lab or ultrasound inputs and the clinical data features of the data. Since the clinical features are harder for users to enter, they are not considered.
 
 **Features used (8):** irregular cycles, excess hair growth, skin darkening, weight gain, acne,
