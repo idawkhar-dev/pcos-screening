@@ -1,0 +1,66 @@
+{
+  "features": [
+    "hair growth(Y/N)",
+    "Skin darkening (Y/N)",
+    "Cycle(R/I)",
+    "Weight gain(Y/N)",
+    "Pimples(Y/N)",
+    "Age (yrs)",
+    "Fast food (Y/N)",
+    "Cycle length(days)"
+  ],
+  "labels": {
+    "hair growth(Y/N)": "excess hair growth",
+    "Skin darkening (Y/N)": "skin darkening",
+    "Cycle(R/I)": "irregular cycles",
+    "Weight gain(Y/N)": "weight gain",
+    "Pimples(Y/N)": "acne",
+    "Age (yrs)": "age",
+    "Fast food (Y/N)": "diet",
+    "Cycle length(days)": "cycle length"
+  },
+  "medians": [
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    31.0,
+    1.0,
+    5.0
+  ],
+  "means": [
+    0.2735674676524954,
+    0.3068391866913124,
+    2.56007393715342,
+    0.37707948243992606,
+    0.4898336414048059,
+    31.430683918669132,
+    0.5157116451016636,
+    4.9408502772643255
+  ],
+  "scales": [
+    0.4457895336307216,
+    0.46118206838723286,
+    0.9011161666149243,
+    0.4846550797864019,
+    0.4998966344684808,
+    5.406002456869452,
+    0.49975308324031315,
+    1.4906406771016456
+  ],
+  "coefficients": [
+    0.6084483102724925,
+    0.6335719159964538,
+    0.5455146286067346,
+    0.4998587116186105,
+    0.43991568445236073,
+    -0.3717879827918771,
+    0.3171795254544118,
+    -0.22610526531800587
+  ],
+  "intercept": -1.1333208305833744,
+  "low_cut": 0.25,
+  "high_cut": 0.55,
+  "notes": "Logistic regression on questionnaire features, Kottarathil PCOS dataset (Kerala, n=541). Screening only, not diagnostic."
+}
