@@ -65,5 +65,4 @@ test_validation.py          input- output test cases
 requirements.txt
 ```
 
-Full problem framing, data limitations and next steps are covered in the following
-presentation: 
+Full problem framing, data limitations and next steps are covered in the document shared via mail.  
